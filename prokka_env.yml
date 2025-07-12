@@ -1,0 +1,14 @@
+name: prokka_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - prokka
+  - biopython
+  - pandas
+  - python=3.10
+  - numpy
+  - tqdm
+  - matplotlib
+  - blast
