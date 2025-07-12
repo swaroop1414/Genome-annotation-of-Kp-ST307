@@ -1,5 +1,4 @@
-﻿```markdown
-#  Investigating *Klebsiella pneumoniae* ST307: Genome Annotation and PPI Network Insights
+﻿# Investigating *Klebsiella pneumoniae* ST307: Genome Annotation and PPI Network Insights
 
 This repository documents a computational biology project aimed at discovering possible therapeutic targets in *Klebsiella pneumoniae* ST307 — a multidrug-resistant (MDR) lineage that has rapidly become a threat in healthcare environments globally.
 
@@ -7,7 +6,7 @@ By integrating genome annotation and protein-protein interaction (PPI) analysis,
 
 ---
 
-##  Summary of Approach
+## Summary of Approach
 
 The workflow involved several key steps:
 
@@ -42,19 +41,17 @@ The workflow involved several key steps:
 
 ---
 
-##  Final Candidate Genes
+## Final Candidate Genes
 
 The following six genes were identified as potential therapeutic targets due to their essential roles in cellular function and stress adaptation:
 
-```
-prsA   metG   pheT   guaA   arcB   smpB
-```
+`prsA   metG   pheT   guaA   arcB   smpB`
 
 These genes are involved in critical metabolic and regulatory processes within the bacterium.
 
 ---
 
-##  Tools and Technologies Used
+## Tools and Technologies Used
 
 - **Quality Control:** FastQC, QUAST  
 - **Annotation:** Prokka  
@@ -65,7 +62,7 @@ These genes are involved in critical metabolic and regulatory processes within t
 
 ---
 
-##  What’s Next?
+## What’s Next?
 
 This study lays the groundwork for future research avenues, including:
 
@@ -79,22 +76,10 @@ These efforts aim to accelerate the discovery of novel therapies against MDR *K.
 
 ---
 
-##  Reproducing the Environment
+## Reproducing the Environment
 
 To replicate the analysis environment, use the included `prokka_env.yml` file:
 
 ```bash
 conda env create -f prokka_env.yml
 conda activate prokka_env
-```
-
----
-
-##  Contact & Collaboration
-
-For questions, suggestions, or collaboration opportunities, feel free to reach out:
-
-- **Name:** Swaroop Bhat  
-- **Email:** swaroopbhat25@gmail.com  
-- **GitHub:** [github.com/swaroop1414](https://github.com/swaroop1414)
-```
